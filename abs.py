@@ -1,5 +1,5 @@
 n=raw_input()
-if n.isdigit():
+try :
 	print abs(int(n))
-else:
+except :
 	print -1
